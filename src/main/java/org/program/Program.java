@@ -1,16 +1,18 @@
 package org.program;
 
-
+import org.db.DatabaseConnection;
 import org.db.SQLStatements;
-import org.db.SqlDB;
 import org.ui.StringOutput;
 
 import java.sql.SQLException;
 
 public class Program {
-    public void findAnActor() {
-        SqlDB db = new SqlDB();
-        SQLStatements stmt = new SQLStatements();
+    SQLStatements stmt = new SQLStatements();
+    InputHandler inp = new InputHandler();
+    StringOutput out = new StringOutput();
+
+    public void findAnActor() throws SQLException {
+        DatabaseConnection db = DatabaseConnection.getInstance();
         InputHandler inp = new InputHandler();
         StringOutput out = new StringOutput();
 
@@ -23,14 +25,12 @@ public class Program {
             db.searchActor(stmt.selectActor(), lastName, firstName);
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            db.closeConnection(db.getConnection());
         }
     }
-
-    public void addAnActor() {
-        SqlDB db = new SqlDB();
-        SQLStatements stmt = new SQLStatements();
-        InputHandler inp = new InputHandler();
-        StringOutput out = new StringOutput();
+    public void addAnActor() throws SQLException {
+        DatabaseConnection db = DatabaseConnection.getInstance();
         out.typeFirstName();
         String firstName = inp.getStringInput();
         out.typeLastName();
@@ -40,15 +40,13 @@ public class Program {
             out.insertActorSuccess();
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            db.closeConnection(db.getConnection());
         }
-
     }
+    public void updateActorNames() throws SQLException {
+        DatabaseConnection db = DatabaseConnection.getInstance();
 
-    public void updateActorNames() {
-        SqlDB db = new SqlDB();
-        InputHandler inp = new InputHandler();
-        StringOutput out = new StringOutput();
-        SQLStatements stmt = new SQLStatements();
         out.typeOldFirstName();
         String oldFirstName = inp.getStringInput();
         out.typeOldLastName();
@@ -63,12 +61,13 @@ public class Program {
             out.updateSuccess();
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            db.closeConnection(db.getConnection());
         }
-
     }
+    public void deleteAnActor() throws SQLException {
+        DatabaseConnection db = DatabaseConnection.getInstance();
 
-    public void deleteAnActor() {
-        SqlDB db = new SqlDB();
         InputHandler inp = new InputHandler();
         StringOutput out = new StringOutput();
         SQLStatements stmt = new SQLStatements();
@@ -81,15 +80,12 @@ public class Program {
             out.deleteActorSucess();
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            db.closeConnection(db.getConnection());
         }
-
     }
-
-    public void findFilmsForActor() {
-        SqlDB db = new SqlDB();
-        SQLStatements stmt = new SQLStatements();
-        InputHandler inp = new InputHandler();
-        StringOutput out = new StringOutput();
+    public void findFilmsForActor() throws SQLException {
+        DatabaseConnection db = DatabaseConnection.getInstance();
         out.typeFirstName();
         String firstName = inp.getStringInput();
         out.typeLastName();
@@ -99,7 +95,8 @@ public class Program {
             db.searchActorAndFilm(stmt.selectFilmsFromActor(),lastName, firstName);
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            db.closeConnection(db.getConnection());
         }
-
     }
 }

@@ -20,8 +20,8 @@ public class InputHandler {
                 break;
             } catch (NoSuchElementException e) {
                 e.printStackTrace();
-            } catch (IllegalStateException e) {
-                e.printStackTrace();
+            } catch (IllegalStateException ex) {
+                ex.printStackTrace();
             }
         } while (true);
 
@@ -43,10 +43,10 @@ public class InputHandler {
                 break;
             } catch (InputMismatchException e) {
                 e.printStackTrace();
-            } catch (NoSuchElementException e) {
-                e.printStackTrace();
-            } catch (IllegalStateException e) {
-                e.printStackTrace();
+            } catch (NoSuchElementException en) {
+                en.printStackTrace();
+            } catch (IllegalStateException ex) {
+                ex.printStackTrace();
             }
         } while (true);
 

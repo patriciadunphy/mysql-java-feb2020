@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mysql-java-abstractclasses" />
+        <module name="mysql-java-feb2020" />
       </profile>
     </annotationProcessing>
   </component>
