@@ -20,16 +20,16 @@ public class UI {
                     program.findAnActor();
                     break;
                 case 2:
-                    //program.addAnActor();
+                    program.addAnActor();
                     break;
                 case 3:
-                    //program.updateActorNames();
+                    program.updateActorNames();
                     break;
                 case 4:
-                    //program.deleteAnActor();
+                    program.deleteAnActor();
                     break;
                 case 5:
-                    //program.findFilmsForActor();
+                    program.findFilmsForActor();
                     break;
                 case 6:
                     System.out.println("Programmet avslutas");

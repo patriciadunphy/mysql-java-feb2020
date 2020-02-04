@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca92d4ec-e33e-48e8-8d71-74573ff96f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/db/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/db/SqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/db/SqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/db/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/db/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/db/SqlDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/program/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/program/InputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/program/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ui/UI.java" afterDir="false" />
     </list>
@@ -14,6 +14,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,8 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580755658509</updated>
       <workItem from="1580755661954" duration="517000" />
-      <workItem from="1580756411972" duration="6307000" />
+      <workItem from="1580756411972" duration="9573000" />
     </task>
     <servers />
   </component>
@@ -66,29 +72,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="242" y="77" key="#Notifications" timestamp="1580812565826">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="242" y="77" key="#Notifications/0.23.1280.777@0.23.1280.777" timestamp="1580812565826" />
     <state x="402" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580755860252">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="402" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777@0.23.1280.777" timestamp="1580755860252" />
-    <state width="816" height="197" key="GridCell.Tab.0.bottom" timestamp="1580763163565">
+    <state width="618" height="197" key="GridCell.Tab.0.bottom" timestamp="1580812531943">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="816" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580763163565" />
-    <state width="816" height="197" key="GridCell.Tab.0.center" timestamp="1580763163564">
+    <state width="618" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580812531943" />
+    <state width="618" height="197" key="GridCell.Tab.0.center" timestamp="1580812531942">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="816" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580763163564" />
-    <state width="816" height="197" key="GridCell.Tab.0.left" timestamp="1580763163564">
+    <state width="618" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580812531942" />
+    <state width="618" height="197" key="GridCell.Tab.0.left" timestamp="1580812531942">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="816" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580763163564" />
-    <state width="816" height="197" key="GridCell.Tab.0.right" timestamp="1580763163565">
+    <state width="618" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580812531942" />
+    <state width="618" height="197" key="GridCell.Tab.0.right" timestamp="1580812531942">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="816" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580763163565" />
-    <state x="94" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1580759851730">
+    <state width="618" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580812531942" />
+    <state x="144" y="50" key="SettingsEditor" timestamp="1580810910252">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="94" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1580759851730" />
+    <state x="144" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1580810910252" />
+    <state x="94" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1580810746743">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="94" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1580810746743" />
   </component>
 </project>
